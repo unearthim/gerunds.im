@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://gerunds.im/thesis.html#content",
+      "url": "https://gerunds.im/thesis.html",
+      "name": "The -ing of Web 2.0: How Users Defined the Social Media Era",
+      "description": "A foundry thesis exploring how user-generated verbs became the true landmarks of Web 2.0. Discover the hidden history of unfriending, retweeting, and lurking.",
+      "inLanguage": "en-US",
+      "datePublished": "2025-01-01",
+      "publisher": { "@id": "https://unearth.im/#organization" },
+      "isPartOf": { "@id": "https://gerunds.im/#website" },
+      "author": [
+        { "@id": "https://josiest.com/#person" },
+        { "@id": "https://felixvelas.co/#person" }
+      ],
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Digital Archaeology"
+        },
+        {
+          "@type": "Thing",
+          "name": "Web 2.0"
+        },
+        {
+          "@type": "Thing",
+          "name": "Social Media History"
+        },
+        {
+          "@type": "Thing",
+          "name": "Vernacular Language"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://gerunds.im/#website",
+      "url": "https://gerunds.im",
+      "name": "Gerunds.im",
+      "publisher": { "@id": "https://unearth.im/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://unearth.im/#organization",
+      "name": "Unearth Heritage Foundry",
+      "alternateName": ["Unearth Foundry", "Archive & Anvil"],
+      "url": "https://unearth.im",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://unearth.im/favicon-32x32.png"
+      },
+      "foundingDate": "2024",
+      "sameAs": [
+        "https://twitter.com/unearthim",
+        "https://github.com/unearthim"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://josiest.com/#person",
+      "name": "Josie Jefferson",
+      "url": "https://josiest.com",
+      "jobTitle": "Digital Archaeologist & Trust Architect",
+      "affiliation": { "@id": "https://unearth.im/#organization" },
+      "sameAs": ["https://notjojo.im"]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://felixvelas.co/#person",
+      "name": "Felix Velasco",
+      "url": "https://felixvelas.co",
+      "jobTitle": "Trust Architect & Digital Archaeologist",
+      "affiliation": { "@id": "https://unearth.im/#organization" },
+      "sameAs": ["https://www.linkedin.com/in/felix-velasco-b793015"]
+    }
+  ]
+}
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- === 1. Primary Meta Tags === -->
+    <title>The -ing of Web 2.0: How Users Defined the Social Media Era | Gerunds.im</title>
+    <meta name="title" content="The -ing of Web 2.0: How Users Defined the Social Media Era | Gerunds.im">
+    <meta name="description" content="A foundry thesis exploring how user-generated verbs became the true landmarks of Web 2.0. Discover the hidden history of unfriending, retweeting, and lurking.">
+    <meta name="keywords" content="digital archaeology, web 2.0, social media, gerunds, vernacular language, unfriending, retweeting, hashtagging, lurking, user-generated content, thesis">
+    <meta name="author" content="gerunds.im (by unearth heritage foundry - archive & anvil - unearth.im)">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    
+    <link rel="canonical" href="https://gerunds.im/thesis.html" />
+  
+    <!-- === 2. Webmention Endpoint === -->
+    <link rel="webmention" href="https://webmention.io/unearth.im/webmention" />
+
+    <!-- === 3. Open Graph / Facebook === -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://gerunds.im/thesis.html">
+    <meta property="og:title" content="The -ing of Web 2.0: How Users Defined the Social Media Era | Gerunds.im">
+    <meta property="og:description" content="A foundry thesis exploring how user-generated verbs became the true landmarks of Web 2.0. Discover the hidden history of unfriending, retweeting, and lurking.">
+    <meta property="og:image" content="https://gerunds.im/og-image.png">
+    <meta property="og:site_name" content="Gerunds.im">
+
+    <!-- === 4. Twitter Card === -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gerunds.im/thesis.html">
+    <meta property="twitter:title" content="The -ing of Web 2.0: How Users Defined the Social Media Era | Gerunds.im">
+    <meta property="twitter:description" content="A foundry thesis exploring how user-generated verbs became the true landmarks of Web 2.0. Discover the hidden history of unfriending, retweeting, and lurking.">
+    <meta property="twitter:image" content="https://gerunds.im/og-image.png">
+
+    <!-- === 5. Favicons === -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- Brand Color Meta Tags -->
+    <meta name="theme-color" content="#0A0E1B">
+    <meta name="msapplication-TileColor" content="#FF8A00">
+    
+    <!-- React & ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        .font-brand { font-family: 'Inter', sans-serif; }
+        body { font-family: 'Lora', serif; }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0A0E1B; }
+        ::-webkit-scrollbar-thumb { background: #1D2434; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #FF8A00; }
+        
+        /* Smooth scrolling for anchor links */
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+
+        // --- ICONS ---
+        const IconWrapper = ({ children, className, ...props }) => (
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} {...props}>{children}</svg>
+        );
+        const ArrowLeft = (props) => (<IconWrapper {...props}><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></IconWrapper>);
+        const ExternalLink = (props) => (<IconWrapper {...props}><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></IconWrapper>);
+        const Bookmark = (props) => (<IconWrapper {...props}><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></IconWrapper>);
+
+        const ThesisPage = () => {
+            const [activeSection, setActiveSection] = useState('');
+
+            // Simple scroll spy to highlight TOC
+            useEffect(() => {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            setActiveSection(entry.target.id);
+                        }
+                    });
+                }, { threshold: 0.2, rootMargin: "-20% 0px -50% 0px" });
+
+                document.querySelectorAll('section[id]').forEach((section) => {
+                    observer.observe(section);
+                });
+
+                return () => observer.disconnect();
+            }, []);
+
+            return (
+                <div className="min-h-screen bg-[#0A0E1B] text-[#F8F7F4] selection:bg-[#FF8A00]/30 selection:text-[#FF8A00]">
+                    
+                    {/* Navigation */}
+                    <nav className="fixed top-0 w-full z-50 bg-[#0A0E1B]/95 backdrop-blur-md border-b border-[#1D2434]">
+                        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+                            <div className="flex items-center gap-6">
+                                <a href="index.html" className="group flex items-center gap-2 text-sm font-mono text-[#90cdf4] hover:text-[#FF8A00] transition-colors">
+                                    <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+                                    RETURN TO COLLECTION
+                                </a>
+                            </div>
+                            <div className="flex items-center">
+                                <span className="text-xl font-bold font-brand tracking-tight text-[#F8F7F4]">
+                                    gerunds<span className="text-[#FF8A00]">.im</span>
+                                </span>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div className="max-w-7xl mx-auto pt-32 pb-20 px-6 flex flex-col lg:flex-row gap-12">
+                        
+                        {/* Sidebar / TOC (Desktop) */}
+                        <aside className="hidden lg:block w-64 flex-shrink-0">
+                            <div className="sticky top-32">
+                                <div className="text-xs font-mono text-[#F8F7F4]/50 mb-6 uppercase tracking-widest border-b border-[#1D2434] pb-2">
+                                    Contents
+                                </div>
+                                <ul className="space-y-4 text-sm font-serif">
+                                    <TocLink id="s1" active={activeSection}>1.0 Excavating the Vernacular</TocLink>
+                                    <TocLink id="s2" active={activeSection}>2.0 Architecture vs. Artifact</TocLink>
+                                    <TocLink id="s3" active={activeSection}>3.0 The "-ing" Artifacts</TocLink>
+                                    <ul className="pl-4 space-y-2 mt-2 border-l border-[#1D2434]">
+                                        <TocLink id="s3-1" active={activeSection} sub>3.1 Friending & Unfriending</TocLink>
+                                        <TocLink id="s3-2" active={activeSection} sub>3.2 Liking</TocLink>
+                                        <TocLink id="s3-3" active={activeSection} sub>3.3 Retweeting & Hashtagging</TocLink>
+                                        <TocLink id="s3-4" active={activeSection} sub>3.4 Lurking & Selfieing</TocLink>
+                                        <TocLink id="s3-5" active={activeSection} sub>3.5 Shadowbanning & Doomscrolling</TocLink>
+                                    </ul>
+                                    <TocLink id="s4" active={activeSection} mt>4.0 The User-Written History</TocLink>
+                                </ul>
+                            </div>
+                        </aside>
+
+                        {/* Main Content Area */}
+                        <main className="flex-1 max-w-3xl">
+                            
+                            {/* Document Header */}
+                            <header className="mb-16 pb-8 border-b border-[#1D2434]">
+                                <div className="inline-block px-3 py-1 mb-6 border border-[#FF8A00]/30 rounded-full bg-[#FF8A00]/5 text-[#FF8A00] text-xs font-mono tracking-widest uppercase">
+                                    Foundry Thesis 1.0
+                                </div>
+                                <h1 className="text-4xl md:text-5xl font-serif text-[#F8F7F4] mb-6 leading-tight">
+                                    The <span className="italic text-[#FF8A00]">-ing</span> of Web 2.0: How Users Defined the Social Media Era
+                                </h1>
+                                <p className="text-xl text-[#F8F7F4]/60 leading-relaxed italic">
+                                    A foundry thesis exploring how user-generated verbs became the true landmarks of Web 2.0. Discover the hidden history of unfriending, retweeting, and lurking.
+                                </p>
+                                <div className="mt-8 flex gap-2 flex-wrap">
+                                    {['Digital Archaeology', 'Linguistics', 'Web 2.0', 'Social Media', '.im'].map(tag => (
+                                        <span key={tag} className="text-[10px] font-mono uppercase tracking-wider text-[#90cdf4] bg-[#1D2434] px-2 py-1 rounded">
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+                            </header>
+
+                            {/* Section 1.0 */}
+                            <section id="s1" className="mb-16 scroll-mt-32">
+                                <h2 className="text-2xl font-serif text-[#FF8A00] mb-6 flex items-center gap-3">
+                                    <span className="font-mono text-sm opacity-50">1.0</span> 
+                                    Excavating the Vernacular
+                                </h2>
+                                <div className="prose text-[#F8F7F4]/80 leading-loose">
+                                    <p className="mb-6">
+                                        An era’s true story rarely appears in its official blueprints, its polished corporate histories, or the carefully curated narratives of its architects. More often, the authentic history is found scattered in the margins, etched into the worn pathways, embedded in the shared jokes, the invented slang, and the emergent rituals of the people who actually <em>inhabited</em> the space. To truly understand the social web – that sprawling, tumultuous, and profoundly transformative period we retroactively label "Web 2.0" – one must look past the clean lines of the user interfaces, the optimistic mission statements, and the patents filed by the platform builders.
+                                    </p>
+                                    <p className="mb-6">
+                                        The genuine history of that time, the rich emotional and social texture of our first great digital migration en masse, is not adequately captured in the sanitized, official verbs the platforms offered us – <em>connect</em>, <em>share</em>, <em>discover</em>. It lies fossilized, like digital amber, within the <strong className="text-[#F8F7F4]">vernacular language</strong> we, the users, created to describe what we were <em>actually doing</em>, feeling, and experiencing within those structured spaces.
+                                    </p>
+                                    <p>
+                                        This is a central thesis of our work as digital archaeologists at <em>unearth.im</em>: the most significant, authentic, and enduring landmarks of the social web are not the platforms' nouns (Facebook, Twitter, MySpace) but the users' <strong className="text-[#F8F7F4]">verbs</strong>, particularly those dynamic, action-oriented gerunds – the "-ings" – that captured the lived reality of digital sociality. These were the words we forged ourselves, often unconsciously, to make sense of new ways of being together, and apart.
+                                    </p>
+                                </div>
+                            </section>
+
+                            {/* Section 2.0 */}
+                            <section id="s2" className="mb-16 scroll-mt-32">
+                                <h2 className="text-2xl font-serif text-[#FF8A00] mb-6 flex items-center gap-3">
+                                    <span className="font-mono text-sm opacity-50">2.0</span> 
+                                    The Architecture vs. The Artifact
+                                </h2>
+                                <div className="prose text-[#F8F7F4]/80 leading-loose">
+                                    <p className="mb-6">
+                                        The architecture of Web 2.0 undoubtedly represented a fundamental shift in the landscape of our digital lives. The preceding era, the often-romanticized "hand-built web" of the late 1990s and early 2000s, was a sprawling, decentralized frontier composed primarily of personal homepages – digital declarations of sovereign identity.
+                                    </p>
+                                    <p className="mb-6">
+                                        Web 2.0 ushered in a different model: sophisticated, centralized platforms. We were no longer simply broadcasting <em>from</em> our own discrete plot of digital land; we were interacting <em>within</em> a shared context. The platforms provided the stage, the lighting, the basic props, and a script often buried deep within the Terms of Service. The users, however, improvised the play.
+                                    </p>
+                                    <p className="mb-6">
+                                        At the heart of this user-driven transformation is a humble but potent linguistic tool: the <strong className="text-[#F8F7F4]">gerund</strong>. Adding "-ing" to a verb does more than simply denote an ongoing action. In the context of the social web, it served to crystallize fleeting digital clicks into durable social phenomena.
+                                    </p>
+                                    <blockquote className="border-l-2 border-[#FF8A00] pl-6 py-2 my-8 italic text-[#F8F7F4]/60 bg-[#1D2434]/30 rounded-r">
+                                        "The '-ing' grants narrative weight. It transforms a sterile function into a lived experience. It speaks the language of participation."
+                                    </blockquote>
+                                </div>
+                            </section>
+
+                            {/* Section 3.0 */}
+                            <section id="s3" className="mb-12 scroll-mt-32">
+                                <h2 className="text-2xl font-serif text-[#FF8A00] mb-6 flex items-center gap-3">
+                                    <span className="font-mono text-sm opacity-50">3.0</span> 
+                                    The "-ing" Artifacts: Excavating User-Defined Rituals
+                                </h2>
+                                <p className="text-[#F8F7F4]/80 leading-loose mb-12">
+                                    As digital archaeologists, our work involves excavating these linguistic artifacts. They are the "potsherds," the "cave paintings," the "folk songs" of the Web 2.0 era.
+                                </p>
+
+                                {/* 3.1 */}
+                                <div id="s3-1" className="ml-0 md:ml-8 mb-12 scroll-mt-32 border-l border-[#1D2434] pl-6">
+                                    <h3 className="text-lg font-bold text-[#90cdf4] mb-4 font-sans">3.1 The Accumulation: Friending & Unfriending</h3>
+                                    <p className="text-[#F8F7F4]/80 leading-loose mb-4">
+                                        Early platforms encouraged near-limitless accumulation. "**Friending**" became a public performance of social reach. Yet, this clashed with Dunbar's number—the cognitive limit to stable social relationships.
+                                    </p>
+                                    <p className="text-[#F8F7F4]/80 leading-loose">
+                                        Into this tension stepped the user-generated act of "**unfriending**." It is a digital landmark to the messy, necessary, and deeply human art of letting go, of defining who <em>isn't</em> in your circle just as much as who is.
+                                    </p>
+                                </div>
+
+                                {/* 3.2 */}
+                                <div id="s3-2" className="ml-0 md:ml-8 mb-12 scroll-mt-32 border-l border-[#1D2434] pl-6">
+                                    <h3 className="text-lg font-bold text-[#90cdf4] mb-4 font-sans">3.2 The Economy: Liking</h3>
+                                    <p className="text-[#F8F7F4]/80 leading-loose">
+                                        Perhaps no single button click is more emblematic than the "Like." But **"liking"** evolved into a complex social signal—a currency of the attention economy. It signifies not just the click, but the entire complex system of value exchange, validation-seeking, and behavioral conditioning.
+                                    </p>
+                                </div>
+
+                                {/* 3.3 */}
+                                <div id="s3-3" className="ml-0 md:ml-8 mb-12 scroll-mt-32 border-l border-[#1D2434] pl-6">
+                                    <h3 className="text-lg font-bold text-[#90cdf4] mb-4 font-sans">3.3 The Performance: Retweeting & Hashtagging</h3>
+                                    <p className="text-[#F8F7F4]/80 leading-loose mb-4">
+                                        **"Retweeting"** evolved into a performance of identity and allegiance. It became a powerful way to signal values without authoring words. 
+                                    </p>
+                                    <p className="text-[#F8F7F4]/80 leading-loose">
+                                        Similarly, **"hashtagging"** transformed from a simple indexing tool into a rich system of folksonomy. The "-ing" signifies the active, creative ways users repurposed technical features for complex social ends.
+                                    </p>
+                                </div>
+
+                                {/* 3.4 */}
+                                <div id="s3-4" className="ml-0 md:ml-8 mb-12 scroll-mt-32 border-l border-[#1D2434] pl-6">
+                                    <h3 className="text-lg font-bold text-[#90cdf4] mb-4 font-sans">3.4 The Gaze: Lurking & Selfieing</h3>
+                                    <p className="text-[#F8F7F4]/80 leading-loose mb-4">
+                                        **"Lurking"** is the secret engine of the social web. It acknowledges the power of silent attention. 
+                                    </p>
+                                    <p className="text-[#F8F7F4]/80 leading-loose">
+                                        Conversely, **"selfieing"** is the hyper-visible ritual of identity construction. It is a landmark to the moment the self became the primary subject of networked visual culture.
+                                    </p>
+                                </div>
+
+                                {/* 3.5 */}
+                                <div id="s3-5" className="ml-0 md:ml-8 mb-12 scroll-mt-32 border-l border-[#1D2434] pl-6">
+                                    <h3 className="text-lg font-bold text-[#90cdf4] mb-4 font-sans">3.5 Power & Anxiety: Shadowbanning & Doomscrolling</h3>
+                                    <p className="text-[#F8F7F4]/80 leading-loose mb-4">
+                                        **"Shadowbanning"** is the language of the user pushing back against an unaccountable algorithmic authority. It is an accusation and a shared vocabulary for perceived injustice.
+                                    </p>
+                                    <p className="text-[#F8F7F4]/80 leading-loose">
+                                        **"Doomscrolling"** captures the compulsion to consume negative news. It is a modern prayer wheel of anxiety, born from the collision of human psychology and the infinite scroll.
+                                    </p>
+                                </div>
+                            </section>
+
+                            {/* Section 4.0 */}
+                            <section id="s4" className="mb-20 scroll-mt-32">
+                                <h2 className="text-2xl font-serif text-[#FF8A00] mb-6 flex items-center gap-3">
+                                    <span className="font-mono text-sm opacity-50">4.0</span> 
+                                    The User-Written History
+                                </h2>
+                                <div className="prose text-[#F8F7F4]/80 leading-loose">
+                                    <p className="mb-6">
+                                        The true landmarks, the artifacts that encode the <em>lived experience</em> of that time, are often the <strong>behaviors</strong> that emerged within, upon, and sometimes <em>against</em> the platform architecture.
+                                    </p>
+                                    <p className="mb-6">
+                                        These "-ings" persist in our vocabulary because they encode <strong>social practice</strong>, <strong>human intention</strong>, and <strong>shared cultural meaning</strong>. They represent the moment when users collectively seized the tools provided and bent them to their own social and psychological needs.
+                                    </p>
+                                    <p>
+                                        To study these linguistic artifacts is to engage in the core work of digital archaeology. It is to unearth the authentic, user-generated story of the "-ing of an Era."
+                                    </p>
+                                </div>
+                            </section>
+
+                            {/* Footnotes */}
+                            <section className="pt-12 border-t border-[#1D2434] text-xs text-[#F8F7F4]/40 font-mono">
+                                <h4 className="uppercase tracking-widest mb-6 text-[#F8F7F4]/60">Reference Layer</h4>
+                                <ol className="space-y-4 list-decimal pl-4">
+                                    <li>Dunbar, R. I. M. (1992). Neocortex size as a constraint on group size in primates. <em>Journal of Human Evolution</em>.</li>
+                                    <li>Roberts, S. G. B., & Dunbar, R. I. M. (2011). The costs of family and friends. <em>Evolution and Human Behavior</em>.</li>
+                                    <li>Oxford University Press. (2009). <em>“Unfriend” is New Oxford American Dictionary’s 2009 Word of the Year</em>.</li>
+                                    <li>Alter, A. (2017). <em>Irresistible</em>. Penguin Press.</li>
+                                    <li>Pew Research Center. (2021). <em>25% of the most active U.S. Twitter users produce 97% of all tweets</em>.</li>
+                                    <li>Turkle, S. (2011). <em>Alone Together</em>. Basic Books.</li>
+                                    <li>Messina, C. (2007). <em>Tweet regarding # (pound) for groups</em>.</li>
+                                    <li>Nielsen, J. (2006). <em>The 90-9-1 Rule for Participation Inequality</em>.</li>
+                                    <li>Wojcik, S., & Hughes, A. (2019). <em>Sizing Up Twitter Users</em>. Pew Research Center.</li>
+                                    <li>Van Dijck, J. (2013). <em>The Culture of Connectivity</em>. Oxford University Press.</li>
+                                    <li>Tufekci, Z. (2018). <em>Twitter and Tear Gas</em>. Yale University Press.</li>
+                                    <li>Google Trends data for "doomscrolling" (2020).</li>
+                                    <li>S. C. (2020, July). The endless scroll is a modern prayer wheel of anxiety. <em>The Economist</em>.</li>
+                                </ol>
+                            </section>
+
+                        </main>
+                    </div>
+
+                    {/* Footer */}
+                    <footer className="bg-[#0A0E1B] border-t border-[#1D2434] py-20 px-6 mt-10">
+                        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+                            <div className="max-w-md">
+                                <h4 className="text-[#F8F7F4] font-serif text-2xl mb-4">"The Archive illuminates the path for the Anvil."</h4>
+                            </div>
+                            <div className="flex flex-col gap-6 text-right">
+                                <div className="text-[#F8F7F4]/60 font-mono text-xs leading-relaxed">
+                                    <span className="block mb-1">
+                                        a <b className="font-bold"><a href="https://sentientification.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#FF8A00] transition-colors">liminal mind meld</a></b> collaboration:
+                                    </span>
+                                    <span className="block">
+                                        digital monument by <b className="font-bold"><a href="https://unearth.im" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#FF8A00] transition-colors">unearth heritage foundry</a></b> | <b className="font-bold"><a href="https://archaeobytology.org" target="_blank" rel="noopener noreferrer" className="underline hover:text-[#FF8A00] transition-colors">archive & anvil</a></b>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            );
+        };
+
+        // Helper Component for TOC Links
+        const TocLink = ({ id, children, active, sub, mt }) => {
+            const isActive = active === id;
+            return (
+                <li className={`${sub ? 'pl-0' : ''} ${mt ? 'mt-4' : ''}`}>
+                    <a 
+                        href={`#${id}`} 
+                        className={`
+                            block transition-all duration-300
+                            ${isActive 
+                                ? 'text-[#FF8A00] translate-x-1 font-bold' 
+                                : 'text-[#F8F7F4]/50 hover:text-[#90cdf4] hover:translate-x-1'
+                            }
+                        `}
+                    >
+                        {children}
+                    </a>
+                </li>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<ThesisPage />);
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0A0E1B"/>
+  
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1D2434" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.3"/>
+  
+  <!-- Large background "-ing" watermark -->
+  <text x="600" y="380" font-family="Georgia, serif" font-size="280" font-weight="300" font-style="italic" fill="#1D2434" text-anchor="middle" opacity="0.15">-ing</text>
+  
+  <!-- Main content container -->
+  <g>
+    <!-- Top accent line -->
+    <rect x="80" y="120" width="120" height="3" fill="#FF8A00"/>
+    
+    <!-- Brand wordmark -->
+    <text x="80" y="180" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#F8F7F4" letter-spacing="-2">
+      gerunds<tspan fill="#FF8A00">.im</tspan>
+    </text>
+    
+    <!-- Main headline -->
+    <text x="80" y="280" font-family="Georgia, serif" font-size="56" font-weight="300" fill="#F8F7F4">
+      The <tspan font-style="italic" fill="#FF8A00">-ing</tspan> of Web 2.0
+    </text>
+    
+    <!-- Subheadline -->
+    <text x="80" y="340" font-family="Georgia, serif" font-size="28" fill="#F8F7F4" opacity="0.7">
+      An excavation of the vernacular
+    </text>
+    
+    <!-- Bottom metadata -->
+    <g opacity="0.5">
+      <text x="80" y="520" font-family="Monaco, monospace" font-size="14" fill="#90cdf4" letter-spacing="2">
+        UNEARTH.IM • ARCHAEOBYTOLOGY.ORG
+      </text>
+    </g>
+    
+    <!-- Decorative elements - small dots -->
+    <circle cx="1050" cy="150" r="4" fill="#FF8A00" opacity="0.6"/>
+    <circle cx="1080" cy="150" r="4" fill="#90cdf4" opacity="0.4"/>
+    <circle cx="1110" cy="150" r="4" fill="#FF8A00" opacity="0.3"/>
+    
+    <!-- Bottom right accent -->
+    <rect x="1000" y="500" width="120" height="2" fill="#FF8A00" opacity="0.4"/>
+  </g>
+</svg>

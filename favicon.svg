@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="32" height="32" fill="#0A0E1B" rx="4"/>
+  
+  <!-- Stylized "g" with "-ing" concept -->
+  <g>
+    <!-- The "g" shape in a modern, geometric style -->
+    <path d="M 16 8 C 12.5 8 10 10.5 10 14 C 10 17.5 12.5 20 16 20 C 17.5 20 18.8 19.4 19.8 18.5 L 19.8 22 C 19.8 23 19 23.8 18 23.8 L 16 23.8" 
+          fill="none" 
+          stroke="#F8F7F4" 
+          stroke-width="2.5" 
+          stroke-linecap="round"/>
+    
+    <!-- Small accent dot (representing the continuous "-ing" action) -->
+    <circle cx="22" cy="11" r="2" fill="#FF8A00"/>
+  </g>
+</svg>
