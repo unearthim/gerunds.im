@@ -192,6 +192,13 @@
         ::-webkit-scrollbar-track { background: #0A0E1B; }
         ::-webkit-scrollbar-thumb { background: #1D2434; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #FF8A00; }
+        
+        /* Dotted underline hover effect for "The Thesis" link */
+        .thesis-link:hover {
+            text-decoration: underline;
+            text-decoration-style: dotted;
+            text-underline-offset: 4px;
+        }
     </style>
 </head>
 <body>
@@ -312,7 +319,7 @@
                     <section className="px-6 py-12 max-w-7xl mx-auto border-t border-[#1D2434]">
                         <div className="grid md:grid-cols-12 gap-12">
                             <div className="md:col-span-4">
-                                <h3 className="text-[#FF8A00] font-mono text-sm uppercase tracking-widest mb-4">The Thesis</h3>
+                                <h3 className="text-[#FF8A00] font-mono text-sm uppercase tracking-widest mb-4"><a href="excavating-the-vernacular.html" className="thesis-link">The Thesis</a></h3>
                             </div>
                             <div className="md:col-span-8 prose prose-lg text-[#F8F7F4]/80">
                                 <p className="mb-6 leading-relaxed">
@@ -472,7 +479,7 @@
                                 </p>
                             </div>
                             <div className="flex flex-col gap-6 text-right">
-                                <a href="#" className="text-[#FF8A00] hover:text-[#90cdf4] transition-colors font-mono text-sm flex items-center justify-end gap-2">
+                                <a href="excavating-the-vernacular.html" className="text-[#FF8A00] hover:text-[#90cdf4] transition-colors font-mono text-sm flex items-center justify-end gap-2">
                                     READ FULL THESIS <ExternalLink className="w-4 h-4" />
                                 </a>
                                 
