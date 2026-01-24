@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <script type="application/ld+json">
+
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -100,17 +101,143 @@
       "name": "Unearth Heritage Foundry",
       "alternateName": [
         "Unearth Foundry",
-        "Archive & Anvil"
+        "Heritage Lab"
       ],
       "url": "https://unearth.im",
       "logo": {
         "@type": "ImageObject",
         "url": "https://unearth.im/fingerprint.png"
       },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "addressCountry": "US"
+      },
       "foundingDate": "2024",
+      "description": "A philosophical research collective and digital archaeology lab. We preserve web heritage, explore AI-human collaboration frameworks, and build cultural infrastructure through the Archive & Anvil methodology.",
+      "knowsAbout": [
+        {
+          "@id": "https://archaeobytology.org/#concept"
+        },
+        {
+          "@id": "https://sentientification.com/#concept"
+        },
+        {
+          "@id": "https://myceloom.com/#protocol"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Digital Archaeology"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "AI-Human Collaboration"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Archive & Anvil"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Semantic IP"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Heritage Preservation"
+        }
+      ],
+      "subOrganization": {
+        "@id": "https://unearth.works/#organization"
+      },
       "sameAs": [
+        "https://www.google.com/search?kgmid=/g/11yt8wf8rr",
+        "https://unearth.wiki",
+        "https://unearth.land",
+        "https://unearth.fyi",
+        "https://unearth.site",
+        "https://unearth.spot",
+        "https://unearth.name",
+        "https://unearth.page",
+        "https://unearth.ink",
+        "https://unearth.click",
+        "https://linkedin.com/company/unearthim",
         "https://twitter.com/unearthim",
-        "https://github.com/unearthim"
+        "https://github.com/unearthim",
+        "https://zenodo.org/communities/unearthim"
+      ],
+      "founder": [
+        {
+          "@id": "https://josiest.com/#person"
+        },
+        {
+          "@id": "https://felixvelas.co/#person"
+        }
+      ],
+      "member": [
+        {
+          "@id": "https://josiest.com/#person"
+        },
+        {
+          "@id": "https://felixvelas.co/#person"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://unearth.works/#organization",
+      "name": "Unearth Anvil",
+      "alternateName": [
+        "Unearth Works",
+        "Anvil Consulting"
+      ],
+      "description": "The consulting arm of Unearth Heritage Foundry, offering digital archaeology services, heritage preservation consulting, semantic infrastructure development, and Archive & Anvil methodology implementation.",
+      "url": "https://unearth.works",
+      "parentOrganization": {
+        "@id": "https://unearth.im/#organization"
+      },
+      "sameAs": [
+        "https://unearth.works"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://archaeobytology.org/#concept",
+      "name": "Archaeobytology",
+      "alternateName": [
+        "Digital Archaeology of Data",
+        "The Archaeology of Digital Artifacts"
+      ],
+      "description": "The systematic study and preservation of digital artifacts, data structures, and online cultural heritage. A discipline that applies archaeological methodologies to the excavation, documentation, and interpretation of digital remains.",
+      "url": "https://archaeobytology.org",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Digital Heritage Studies"
+      },
+      "sameAs": [
+        "https://www.google.com/search?kgmid=/g/11yt8qm_qh",
+        "https://archaeobytology.org",
+        "https://zenodo.org/communities/archaeobytology/"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://sentientification.com/#concept",
+      "name": "Sentientification",
+      "alternateName": [
+        "The Sentientification Framework"
+      ],
+      "description": "A philosophical and technical framework for understanding the emergence of sentience-like properties in complex systems, particularly in AI-human collaborative contexts.",
+      "url": "https://sentientification.com",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "AI Philosophy & Consciousness Studies"
+      },
+      "sameAs": [
+        "https://www.google.com/search?kgmid=/g/11yt8wsd1s",
+        "https://sentientification.com",
+        "https://sentientification.org",
+        "https://zenodo.org/communities/sentientification/"
       ]
     },
     {
@@ -118,12 +245,23 @@
       "@id": "https://josiest.com/#person",
       "name": "Josie Jefferson",
       "url": "https://josiest.com",
-      "jobTitle": "Digital Archaeologist & Trust Architect",
-      "affiliation": {
+      "jobTitle": "Co-Founder & Digital Archaeologist",
+      "memberOf": {
         "@id": "https://unearth.im/#organization"
       },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ICQ-UIN",
+          "name": "Legacy Web1 Identifier",
+          "value": "1428955",
+          "description": "Seven-digit pioneer-era UIN from the 1997 Mirabilis ICQ network, serving as a foundational node in the author's digital provenance."
+        }
+      ],
       "sameAs": [
-        "https://notjojo.im"
+        "https://notjojo.im",
+        "https://orcid.org/0009-0006-3330-8214",
+        "https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Jefferson%2C%20Josie%22&l=list&p=1&s=10&sort=bestmatch"
       ]
     },
     {
@@ -146,17 +284,26 @@
         "url": "https://www.vassar.edu/",
         "sameAs": "https://en.wikipedia.org/wiki/Vassar_College"
       },
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Washington",
+        "url": "https://www.washington.edu/",
+        "sameAs": "https://en.wikipedia.org/wiki/University_of_Washington",
+        "description": "Fiscal Specialist; Fiscal Supervisor; Operations Specialist; Operations Manager;Assistant Director (17-year tenure)"
+      },
       "image": "https://felixvelas.co/portrait.jpg",
       "knowsAbout": [
         {
           "@type": "DefinedTerm",
           "name": "Sentientification",
-          "url": "https://sentientification.com/definition/"
+          "url": "https://sentientification.com/definition/",
+          "sameAs": "https://www.google.com/search?kgmid=/g/11yt8wsd1s"
         },
         {
           "@type": "DefinedTerm",
           "name": "Archaeobytology",
-          "url": "https://archaeobytology.org/definition/"
+          "url": "https://archaeobytology.org/definition/",
+          "sameAs": "https://www.google.com/search?kgmid=/g/11yt8qm_qh"
         },
         {
           "@type": "DefinedTerm",
@@ -194,6 +341,7 @@
     }
   ]
 }
+
 </script>
 
     <meta charset="UTF-8">
